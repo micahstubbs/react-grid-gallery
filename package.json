@@ -4,7 +4,7 @@
   "description": "Justified gallery component for React.",
   "main": "lib/Gallery.js",
   "dependencies": {
-    "react-images": "^0.5.6"
+    "react-images": "git+ssh://git@github.com:duyenho/react-images#0eada7ef810adb68d1333916e487784e66aa7f15"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
