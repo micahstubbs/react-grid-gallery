@@ -29,7 +29,7 @@ gulp.task('build-all', function() {
         'build-cljs-lib',
         'clean-web',
         ['browserify', 'copy-css', 'copy-html'],
-        'deploy-web');
+        /*'deploy-web'*/);
 });
 
 gulp.task('clean-lib', function () {
@@ -52,10 +52,10 @@ gulp.task('clean-web', function () {
         .pipe(clean());
 });
 
-gulp.task('deploy-web', function() {
-    return gulp.src('./examples/dist/**/*')
-        .pipe(ghPages());
-});
+// gulp.task('deploy-web', function() {
+//     return gulp.src('./examples/dist/**/*')
+//         .pipe(ghPages());
+// });
 
 gulp.task('copy-css', function () {
     return gulp.src('./examples/**/*.css')
