@@ -7,7 +7,7 @@
     "build": "gulp"
   },
   "dependencies": {
-    "react-images": "micahstubbs/react-images#c0d13aa92aacf9f163f1a798df11a673607055f7"
+    "react-images": "micahstubbs/react-images#0ecf7dc5ed042acc4e6c65eb81dfd49cdcdc06b3"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

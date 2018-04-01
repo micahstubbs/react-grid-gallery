@@ -3728,9 +3728,9 @@ react-dom@^15.5.4:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react-images@micahstubbs/react-images#c0d13aa92aacf9f163f1a798df11a673607055f7:
+react-images@micahstubbs/react-images#0ecf7dc5ed042acc4e6c65eb81dfd49cdcdc06b3:
   version "0.5.17"
-  resolved "https://codeload.github.com/micahstubbs/react-images/tar.gz/c0d13aa92aacf9f163f1a798df11a673607055f7"
+  resolved "https://codeload.github.com/micahstubbs/react-images/tar.gz/0ecf7dc5ed042acc4e6c65eb81dfd49cdcdc06b3"
   dependencies:
     aphrodite "^0.5.0"
     html-react-parser "^0.4.2"
