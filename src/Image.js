@@ -217,8 +217,8 @@ class Image extends Component {
                 <img
             key={"img-"+this.props.index}
             src={this.props.item.thumbnail} title={this.props.item.caption}
-            onLoad={this.props.handleImageLoaded.bind(this)}
-            onError={this.props.handleImageErrored.bind(this)}
+            onLoad={this.props.handleImageLoaded}
+            onError={this.props.handleImageErrored}
             style={this.thumbnailStyle()} />
                 </div>
                 {this.props.item.thumbnailCaption && (
