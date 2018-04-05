@@ -26,7 +26,6 @@ class Gallery extends Component {
     }
 
     componentDidMount () {
-        console.log('componentDidMount from Gallery react-grid-gallery')
         this.onResize();
     }
 

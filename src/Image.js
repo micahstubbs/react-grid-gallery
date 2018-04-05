@@ -127,8 +127,6 @@ class Image extends Component {
     }
 
     render () {
-        console.log('this.props from react-grid-gallery Image.js render', this.props)
-
         var tags = (typeof this.props.item.tags === 'undefined') ? <noscript/> :
                 this.props.item.tags.map((tag) => {
                     return <div title={tag.title}
