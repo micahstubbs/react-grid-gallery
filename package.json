@@ -2,7 +2,7 @@
   "name": "react-grid-gallery",
   "version": "0.4.8",
   "description": "Justified gallery component for React.",
-  "main": "src/Gallery.js",
+  "main": "lib/Gallery.js",
   "scripts": {
     "build": "gulp"
   },
