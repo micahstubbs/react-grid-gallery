@@ -95,7 +95,7 @@ gulp.task('browserify', function() {
             })
             .pipe(gulpif((process.env.NODE_ENV == 'dev'), source('bundle.js'), source('bundle.min.js')))
             .pipe(buffer())
-            .pipe(gulpif((process.env.NODE_ENV == 'dev'), beautify(), uglify()))
+            // .pipe(gulpif((process.env.NODE_ENV == 'dev'), beautify(), uglify()))
             .pipe(gulp.dest('examples/dist/js'));
     }
     return rebundle(bundle);
@@ -121,7 +121,7 @@ gulp.task('build-cljs-lib', function() {
                          source('react-grid-gallery.bundle.js'),
                          source('react-grid-gallery.bundle.min.js')))
             .pipe(buffer())
-            .pipe(gulpif((process.env.NODE_ENV == 'production'), uglify()))
+            // .pipe(gulpif((process.env.NODE_ENV == 'production'), uglify()))
             .pipe(gulp.dest('lib'));
     }
     return rebundle(bundle);
